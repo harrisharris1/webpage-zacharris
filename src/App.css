@@ -1,38 +1,104 @@
 .App {
   text-align: center;
+  background-color: #fbf7f5;
+  max-width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header_cta{
+  background-color: #fbf7f5;
+  min-height: 50vh;
+  text-align: left;
+  color: #676767;
+  padding: 2%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header_cta h2{
+  font-size: 3em;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.company_name{
+  font-family: 'DM Serif Display', serif;
+  text-align: left;
+  color: #676767;
+  padding: 2%;
+  font-size: 3.5em;
+}
+.cta_button button {
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 8px -1px #b9b9b9;
+  color: #ee6454;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  cursor:pointer;
+  border: none;
+  font-weight: 600;
+}
+.brands_logos_section{
+  background-color: #f0e5dc;
+  min-height: 50vh;
+}
+.brands_logos_paragraph {
+  color: #C3AA9A;
+  font-size: 2em;
+  padding: 3%;
+  font-family: 'Poppins', sans-serif;
+}
+.logos_grid {
+  padding-left:10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.about_section p{
+  color: #676767;
+  font-size: 1.5em;
+  padding: 3%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.box{
+  border: 3px solid #ee6454;
+  display: inline-block;
+  width: 450px;
+  margin:2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box h3{
+  display: inline-block;
+  margin: 2.5%;
+  padding: 6px 8px;
+  border-radius: 5px;
+  background-color: #f0e5dc;
+  color:#676767;
+  font-size: 1em;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+.box p{
+  color:#676767;
+  font-size: 1em;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.copy_size{
+  width: 70%;
+}
+
+.spy_size{
+  width: 70%;
+}
+.colorfilter{
+  filter: invert(78%) sepia(9%) saturate(689%) hue-rotate(340deg) brightness(91%) contrast(82%);
 }
