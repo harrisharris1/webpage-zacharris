@@ -30,33 +30,17 @@ function App() {
 </div>
       </section>
 
-      <section className="about_section">
-        <p>We provide clear, actionable strategies for B2B technology<br>
-        </br> businesses and investment funds to use content and search as a <br>
-        </br>platform for thought leadership, product marketing, and demand <br>
-        </br>generation.</p>
-        <div className="cta_button">
+      <section className="bottom_cta_section">
+        <p>Interested in <br>
+        </br>working together?</p>
+        <div className="cta_button_bottom">
        <a href="mailto:zac.t.harris@gmail.com"> <button>Schedule a 1:1</button></a>
        </div>
-
-       <div className="content_boxes">
-       
-       <div className="box">
-        <h3>Content strategy</h3>
-        <p> Website content strategies designed to map to complex buyer journeys.</p>
-       </div>
-
-       <div className="box">
-        <h3>Seo</h3>
-        <p> SEO, fueled by machine learning, baked into every step of the offering.</p>
-       </div>
-
-       <div className="box">
-        <h3>Playbooks</h3>
-        <p> No giant PDFs, just intuitive playbooks that marketing teams can run with.</p>
-       </div>
-       </div>
       </section>
+
+      <footer>
+        <p className="copywrite">© Rankd. gorankd.com</p>
+      </footer>
     </div>
   );
 }
