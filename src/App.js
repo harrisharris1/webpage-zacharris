@@ -12,7 +12,7 @@ function App() {
       <header className="header_cta">
        <h2>B2B CONTENT STRATEGY & <br>
        </br>SEO THAT GENERATES <br>
-       </br>PIPELINE, NOT JUST PAGEVIEWS.</h2>
+       </br>PIPELINE.</h2>
        <div className="cta_button">
        <a href="mailto:zac.t.harris@gmail.com"> <button>Schedule a 1:1</button></a>
        </div>
