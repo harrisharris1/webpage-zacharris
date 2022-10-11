@@ -48,10 +48,12 @@
   font-family: 'Poppins', sans-serif;
 }
 .logos_grid {
-  padding-left:10%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 3rem;
+  grid-gap:calc(40px + 10%);
+  margin-left:2%;
+  margin-right: 2%;
+  
 }
 
 .bottom_cta_section p{
@@ -102,4 +104,60 @@ footer{
   padding-top: 3%;
   color: #C3AA9A;
   font-size:1.5em;
+}
+
+
+/* media */
+
+@media only screen and (min-width: 356px)and (max-width: 507px){
+  .header_cta h2{
+    font-size: 1.5em;
+  }
+  
+  .company_name{
+    font-size: 2.5em;
+  }
+  .cta_button button {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    padding: 15px;
+    font-size: 1em;
+  }
+  .brands_logos_paragraph {
+    font-size: 1.5em;
+  }
+  .logos_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap:calc(40px + 10%);
+    margin-left:2.5%;
+    margin-right: 2.5%;
+    
+  }
+  .bottom_cta_section p{
+  font-size: 1.5em;
+  }
+  
+  .cta_button_bottom button {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    padding: 15px;
+    font-size: 1em;
+  }
+  
+  .copy_size{
+    width: 50%;
+  }
+  
+  .spy_size{
+    width: 50%;
+  }
+  .colorfilter{
+    width: 80%;
+      filter: invert(78%) sepia(9%) saturate(689%) hue-rotate(340deg) brightness(91%) contrast(82%);
+  }
+  .copywrite{
+    font-size:1em;
+    padding-top:10%;
+  }
 }

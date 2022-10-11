@@ -1,6 +1,5 @@
 import './App.css';
 import nightwatch from './images/nightwatchlogo.png'
-import northcutt from './images/northcutt.svg'
 import nacho from './images/nacho.svg'
 import spyfu from './images/spyfu.svg'
 import copyai from './images/copycopylogo.svg'
@@ -10,9 +9,9 @@ function App() {
     <div className="App">
        <h1 className="company_name">Rankd</h1>
       <header className="header_cta">
-       <h2>B2B CONTENT STRATEGY & <br>
-       </br>SEO THAT GENERATES <br>
-       </br>PIPELINE.</h2>
+       <h2>WE HELP COMPANIES BUILD<br>
+       </br>COMPOUNDING ORGANIC<br>
+       </br> GROWTH & PIPELINE.</h2>
        <div className="cta_button">
        <a href="mailto:zac.t.harris@gmail.com"> <button>Schedule a 1:1</button></a>
        </div>
@@ -22,7 +21,6 @@ function App() {
           <p>BRANDS WE’VE CREATED PIPELINE FOR</p>
         </div>
         <div className="logos_grid">
-  <div><img src={northcutt}alt=""/></div>
   <div><img src={nacho} alt=""/></div>
   <div><img className="spy_size" src={spyfu}alt=""/></div>
   <div><img className="copy_size" src={copyai} alt=""/></div>
