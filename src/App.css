@@ -112,7 +112,7 @@ footer{
 @media only screen and (min-width: 356px)and (max-width: 507px){
 
   .header_cta{
-    height: 40vh;
+    height: 30vh;
   }
   .header_cta h2{
     font-size: 1.5em;
@@ -136,7 +136,7 @@ footer{
   }
   .logos_grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     grid-gap:calc(40px + 10%);
     margin-left:2.5%;
     margin-right: 2.5%;
@@ -170,13 +170,13 @@ footer{
   }
 }
 
-@media only screen and (min-width: 390px)and (max-width: 865px){
+@media only screen and (min-width: 507px)and (max-width: 865px){
 
   .header_cta{
-    height: 40vh;
+    height: 35vh;
   }
   .header_cta h2{
-    font-size: 1.5em;
+    font-size: 2em;
 
   }
   
@@ -190,14 +190,14 @@ footer{
     font-size: 1em;
   }
   .brands_logos_section{
-    height: 40vh;
+    height: 30vh;
   }
   .brands_logos_paragraph {
     font-size: 1.5em;
   }
   .logos_grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap:calc(40px + 10%);
     margin-left:2.5%;
     margin-right: 2.5%;
@@ -229,5 +229,33 @@ footer{
   .copywrite{
     font-size:1em;
     padding-top:10%;
+  }
+}
+
+@media only screen and (min-width: 2020px)and (max-width: 4480px){
+
+
+  .logos_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap:calc(40px + 10%);
+    margin-left:2%;
+    margin-right: 2%;
+    
+  }
+  .copy_size{
+    width: 50%;
+  }
+  
+  .spy_size{
+    width: 50%;
+  }
+  .colorfilter{
+    width: 80%;
+      filter: invert(78%) sepia(9%) saturate(689%) hue-rotate(340deg) brightness(91%) contrast(82%);
+  }
+  .copywrite{
+    font-size:1em;
+    padding-top:5%;
   }
 }
