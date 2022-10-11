@@ -6,7 +6,7 @@
 
 .header_cta{
   background-color: #fbf7f5;
-  min-height: 50vh;
+  height: 50vh;
   text-align: left;
   color: #676767;
   padding: 2%;
@@ -39,7 +39,7 @@
 }
 .brands_logos_section{
   background-color: #f0e5dc;
-  min-height: 50vh;
+  height: 50vh;
 }
 .brands_logos_paragraph {
   color: #C3AA9A;
@@ -110,8 +110,13 @@ footer{
 /* media */
 
 @media only screen and (min-width: 356px)and (max-width: 507px){
+
+  .header_cta{
+    height: 40vh;
+  }
   .header_cta h2{
     font-size: 1.5em;
+
   }
   
   .company_name{
@@ -123,6 +128,9 @@ footer{
     padding: 15px;
     font-size: 1em;
   }
+  .brands_logos_section{
+    height: 35vh;
+  }
   .brands_logos_paragraph {
     font-size: 1.5em;
   }
@@ -132,6 +140,68 @@ footer{
     grid-gap:calc(40px + 10%);
     margin-left:2.5%;
     margin-right: 2.5%;
+    
+  }
+  .bottom_cta_section p{
+  font-size: 1.5em;
+  }
+  
+  .cta_button_bottom button {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    padding: 15px;
+    font-size: 1em;
+  }
+  
+  .copy_size{
+    width: 50%;
+  }
+  
+  .spy_size{
+    width: 50%;
+  }
+  .colorfilter{
+    width: 80%;
+      filter: invert(78%) sepia(9%) saturate(689%) hue-rotate(340deg) brightness(91%) contrast(82%);
+  }
+  .copywrite{
+    font-size:1em;
+    padding-top:10%;
+  }
+}
+
+@media only screen and (min-width: 390px)and (max-width: 865px){
+
+  .header_cta{
+    height: 40vh;
+  }
+  .header_cta h2{
+    font-size: 1.5em;
+
+  }
+  
+  .company_name{
+    font-size: 2.5em;
+  }
+  .cta_button button {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    padding: 15px;
+    font-size: 1em;
+  }
+  .brands_logos_section{
+    height: 40vh;
+  }
+  .brands_logos_paragraph {
+    font-size: 1.5em;
+  }
+  .logos_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap:calc(40px + 10%);
+    margin-left:2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
     
   }
   .bottom_cta_section p{
